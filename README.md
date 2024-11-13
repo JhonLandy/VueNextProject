@@ -8,6 +8,8 @@
 
 动态表单组件，很容易知道，表单里的小组件是根据动态配置参数生成。那到底是什么做到的？思路很简单，是这样的： 设计一个动态组件，可以根据动态配置参数(传入组件名称)生成对应的组件，如，el-input组件、el-select组件。而且设计的动态组件是完全可控的，而vue现有的component不可控的。
 
+<a href="https://www.processon.com/embed/5f508bf2f346fb7afd40d782">思维导图</a>.
+
 ### example
 
 ```template
